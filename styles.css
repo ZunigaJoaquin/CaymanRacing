@@ -19,13 +19,20 @@ body{
     background-position: center center;
     background-attachment: fixed;
     background-size: 100% 120%;
-
-
 }
 
 @font-face {
     font-family:"PorshaC";
     src: url("assets/PorshaC.ttf");
+}
+
+p{
+    font-family: "Montserrat-Regular";
+  }
+
+@font-face {
+    font-family:"Montserrat-Regular";
+    src: url("Montserrat-Regular.ttf");
 }
 
 #h1{
@@ -43,6 +50,6 @@ body{
 }
 
 .imgGrande{
-    height: 800px;
-    width: 1400px;
+    height: 40vh;
+    width: 50vw;
 }
