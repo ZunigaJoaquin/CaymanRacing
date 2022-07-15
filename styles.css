@@ -28,7 +28,7 @@ body{
 
 p{
     font-family: "Montserrat-Regular";
-  }
+}
 
 @font-face {
     font-family:"Montserrat-Regular";
@@ -52,4 +52,26 @@ p{
 .imgGrande{
     height: 40vh;
     width: 50vw;
+}
+
+.galeria{
+    padding:1em;
+}
+
+.post{
+    font-family: "Montserrat-Regular";
+    font-size: 2.5em;
+}
+
+.containerPost{
+    text-align: center;
+    margin:0em 10em 1em 10em;
+        background-color:rgba(97, 93, 57, 0.1);
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+.galeria:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
 }
